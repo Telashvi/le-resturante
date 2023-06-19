@@ -1,0 +1,676 @@
+body,
+html {
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+}
+
+.dishPic {
+  width: 100%;
+  height: 7%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 900;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  color: red;
+  height: 40%;
+  width: 100%;
+  -webkit-text-stroke: 1px white;
+  display: none;
+}
+.notForMobileHeader {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2%;
+  -webkit-text-stroke: 1px white;
+
+}
+.middleSide {
+  word-spacing: 10px;
+}
+
+.rightSide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border: none;
+  color: white;
+  border: solid red 15px;
+  -webkit-text-stroke: none;
+}
+
+.centerText {
+  position: absolute;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: 15%;
+}
+
+.secondSection {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  background-color: #e8ebed;
+}
+
+.SSitem {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.SSitem > h1 {
+  color: red;
+  font-size: 30px;
+}
+
+.SSitem > img {
+  width: 65px;
+  height: 65px;
+}
+
+.thirdSection {
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.thirdSection > h1 {
+  position: relative;
+  top: 15%;
+  font-weight: 900;
+  margin-bottom: 7%;
+}
+.dishesSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 260px;
+  gap: 1%;
+}
+.dish {
+  display: flex;
+  width: 33%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 55px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: small;
+}
+
+.dish > img {
+  width: 100%;
+  height: 100%;
+}
+
+.dishInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+  position: absolute;
+  color: aliceblue;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 900;
+  color: aliceblue;
+  -webkit-text-stroke: black 1px;
+}
+
+.fourthSection {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #e8ebed;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourthSection > h1 {
+  font-weight: 800;
+  position: relative;
+  top: -15%;
+}
+
+.MenuLines {
+  width: 90%;
+  height: 25%;
+}
+.MenuLine {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.menuCube {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+
+  background-color: white;
+}
+
+.foodTitle {
+  font-size: 90%;
+}
+
+.foodDesc {
+  color: gray;
+  font-size: 70%;
+}
+
+.foodPrice {
+  color: red;
+  font-size: 15px;
+  margin: 4%;
+}
+
+.fifthSection {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fifthSection > h1 {
+  position: relative;
+  font-weight: 800;
+  top: -2%;
+}
+
+.chefs {
+  position: relative;
+  display: flex;
+  width: 70%;
+  height: 50%;
+  justify-content: center;
+  gap: 3%;
+}
+
+.desc {
+  font-size: 13px;
+}
+
+.chefJobDesc {
+  color: gray;
+}
+
+.chefImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45%;
+  width: 45%;
+  border-radius: 50%;
+  font-size: small;
+}
+
+.chefDesc {
+  margin-top: 5%;
+  width: 30%;
+  height: 100%;
+}
+
+.imgAndName {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+}
+/* .name{
+  display: flex;
+  gap:3%;
+} */
+.sixthSection {
+  width: 100%;
+  height: 600px;
+  background-color: #e8ebed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixthSection > h1 {
+  font-weight: 900;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+.dish1 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  gap: 2%;
+  margin-bottom: 3.5%;
+}
+
+.dish2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  gap: 2%;
+}
+
+.blogDishPic {
+  width: 20%;
+}
+
+.sixSectionHeadline {
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+
+.blogDishTitle {
+  font-size: 25px;
+}
+
+.blogDishDesc {
+  font-size: 15px;
+}
+
+.blogDishButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 210px;
+  height: 50px;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+.seventhSection {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SScontent {
+  font-size: 20px;
+  color: gray;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.SSinputAndButton {
+  display: flex;
+  gap: 7%;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 1%;
+}
+
+.SSinput {
+  width: 250%;
+  height: 170%;
+  border: 2px solid rgb(189, 184, 184);
+}
+
+.SSinput::placeholder {
+  padding-left: 15px; /* Adjust the value as needed */
+}
+
+.SSbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  width: 110%;
+  height: 150%;
+  border: none;
+}
+
+.eightSection {
+  display: flex;
+  background-color: #262626;
+  width: 100%;
+  height: 8%;
+  flex-direction: column;
+  align-items: center;
+}
+.columns {
+  display: flex;
+  height: 65%;
+  margin: 5%;
+  width: 78%;
+  justify-content: center;
+}
+.firstC {
+  width: 32%;
+  height: 100%;
+}
+
+.firstCTitle {
+  color: white;
+  width: 30%;
+}
+
+.icons {
+  display: flex;
+  width: 50%;
+  height: 15%;
+}
+.icons > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.firstCtext {
+  color: gray;
+}
+
+.secondC {
+  width: 32%;
+  height: 100%;
+}
+.white {
+  color: white;
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
+  font-size: 15.5px;
+  font-weight: bold;
+}
+
+.whiteSmall {
+  color: white;
+  font-size: small;
+}
+
+.graySmall {
+  color: gray;
+  font-size: small;
+}
+
+.secondC1 {
+  margin-bottom: 11%;
+}
+
+.secondC1 > .white {
+  margin-bottom: 4%;
+}
+
+.secondC2 > .white {
+  margin-bottom: 4%;
+}
+
+.thirdC {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  height: 100%;
+}
+
+.thirdCTitle {
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
+
+.thirdCLink {
+  color: red;
+  font-size: medium;
+  text-decoration: none;
+  margin-bottom: 7.5%;  
+  margin-top: 7.5%;  
+}
+
+.finalRow {
+  display: flex;
+  color: gray;
+}
+
+.finalRow > a {
+  color: red;
+  text-decoration: none;
+}
+
+.finalRow > a::before {
+  content: "\00a0";
+}
+.clickForMenu {
+  width: 50%;
+  height: 100%;
+  display: none;
+}
+
+.menuForMobile {
+  width: 20%;
+  height: 30%;
+  background-color: white;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.menuContent {
+  position: fixed;
+  width: 30%;
+  height: 100vh;
+  background-color: black;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  color: white;
+  opacity: 0.8;
+  z-index: 100;
+}
+.exitMenuContent {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.contactUsMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border: none;
+  color: white;
+  height: 6%;
+  border: solid red 15px;
+}
+
+.sideMenu {
+  display: none;
+}
+
+.exitMenuContent {
+  position: absolute;
+  width: 15%;
+  height: 5%;
+}
+
+@media screen and (max-width: 599px) {
+  .notForMobileHeader {
+    display: none;
+  }
+
+  .clickForMenu {
+    display: block;
+  }
+.menuForMobile{
+  display: flex;
+}
+  .header {
+    display: block;
+    position: fixed;
+  }
+.centerText{
+  width: 100%;
+  -webkit-text-stroke: 1px rgb(207, 208, 182);
+}
+  .secondSection {
+    height: 500px;
+  }
+
+  .thirdSection > h1 {
+    margin-bottom: 15%;
+  }
+
+  .fourthSection {
+    height: 450px;
+  }
+
+  .fourthSection > h1 {
+    top: -24%;
+    margin-bottom: -10%;
+  }
+
+  .MenuLines {
+    height: 32%;
+  }
+
+  .fifthSection {
+    height: 500px;
+  }
+
+  .fifthSection > h1 {
+    top: -5%;
+  }
+
+  .chefs {
+    top: 3%;
+    width: 90%;
+  }
+  .foodTitle {
+    font-size: 80%;
+  }
+  .sixthSection {
+    height: 580px;
+  }
+  .sixthSection > h1 {
+    position: relative;
+    top: -2%;
+  }
+
+  .blogDishButton {
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+  }
+
+.bothDishes{
+  margin-top:3%;
+}
+  .seventhSection {
+    height: 250px;
+  }
+
+  .SScontent {
+    width: 70%;
+    margin-bottom: 3%;
+  }
+  .SSinputAndButton {
+    width: 70%;
+  }
+
+  .eightSection {
+    display: flex;
+    background-color: #262626;
+    width: 100%;
+    height: 8%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .columns {
+    display: flex;
+    height: 65%;
+    margin: 5%;
+    width: 100%;
+    justify-content: center;
+  }
+  .firstCTitle {
+    width: 100%;
+    font-weight: bold;
+  }
+  .firstC {
+    width: 33%;
+  }
+  .secondC {
+    width: 33%;
+  }
+  .thirdC {
+    width: 33%;
+  }
+
+  .icons {
+    width: 90%;
+  }
+
+  .thirdCLink {
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .finalRow {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-size: 12.5px;
+  }
+
+  
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    
+    <script>
+
+       function showNavMenu(){
+        document.getElementById('menuContent').style.display='flex' 
+        document.getElementById('header').style.display='none' 
+        document.getElementById('menuForMobile').style.display='none' 
+
+
+      }
+
+      function hideClickForMenu(){
+        document.getElementById('menuContent').style.display='none' 
+        document.getElementById('header').style.display='block' 
+        document.getElementById('menuForMobile').style.display='flex' 
+      }
+    </script>
+  </head>
+  <body>
+     
+   <div id="menuContent" class="menuContent">
+        <img onclick="hideClickForMenu()" class="exitMenuContent" src="./img/icons8-close-150.png"></img>
+      <div>EATERY</div> 
+      <div>HOME</div>
+      <div>RECIPES</div>
+      <div>SERVICES</div>
+      <div>ABOUT</div>
+      <div>NEWS</div>
+      <button class="contactUsMenu">CONTACT US</button>
+        </div>
+    <div class="dishPic">
+      
+       <div class="notForMobileHeader">
+         <div class="leftSide">EATERY</div>
+        <div class="middleSide">HOME RECIPES SERVICES ABOUT NEWS</div>
+        <button class="rightSide">CONTACT US</button>
+        </div>
+      <img src="./img/download.jpg" ></img>
+
+      <div id="header" class="header">  
+        <div id="menuForMobile" class="menuForMobile">
+          <img  onclick="showNavMenu()" class="clickForMenu" src="./img/menu.png" ></img>
+        </div>
+</div>
+       
+        
+      
+      <div class="centerText">
+        <h1>DELICIOUS FOOD</h1>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+      </div>
+    </div>
+    <div class="secondSection">
+      <div class="SSitem">
+        <img  src="./img/wine-glasses.png"></img>
+        <h1>Our Drinks</h1>
+        <div class="SSitemText">
+          Lorem ipsum dolor sit amet,
+           consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua.
+        </div>
+      </div>
+      <div class="SSitem">
+        <img  src="./img/fish.png"></img>
+        <h1>Sea Foods</h1>
+        <div class="SSitemText">
+          Lorem ipsum dolor sit amet,
+           consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua.
+        </div>
+      </div>
+      <div class="SSitem">
+        <img  src="./img/coffee.png"></img>
+        <h1>Cup Coffees</h1>
+        <div class="SSitemText">
+          Lorem ipsum dolor sit amet,
+           consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua.
+        </div>
+      </div>
+      <div class="SSitem">
+        <img  src="./img/salad.png"></img>
+        <h1>Fresh Salad</h1>
+        <div class="SSitemText">
+          Lorem ipsum dolor sit amet,
+           consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua.
+        </div>
+      </div>
+    </div>
+    <div class="thirdSection">
+      <h1>SPECIAL DISHES</h1>
+      <div class="dishesSection">
+      <div class="dish">
+        
+        
+        <img src="./img/dishes_1.jpg"></img>
+        <div class="dishInner">
+          <div class="circle">$11.50</div>
+          ORGANIC TOMATO SALAD, GORGONZOL A CHEESE, CAPE</div>
+      </div>
+      <div class="dish">
+        <img src="./img/dishes_2.jpg"></img>
+        <div class="dishInner">
+          <div class="circle">$12.00</div>BAKED BROCCOLI</div>
+      </div>
+    </div>
+      
+</div>
+<div class="fourthSection"> 
+  <h1 >OUR MENU</h1>
+
+ 
+  <div class="MenuLines"> 
+
+      <div class="MenuLine">
+
+    <div class="menuCube">
+      <h1 class="foodTitle">Grilled Caesar salad, shaved reggiano</h1>
+      <div class="foodDesc">or ipsum dolor zkamet consectetur atlipisicing eIrt. Archileao deleaus...</div>
+      <div class="foodPrice">$12.00</div>
+    </div>
+  
+    <img src="./img/dishes_4.jpg" class="menuCube"></img>
+    <div class="menuCube"> 
+        <h1 class="foodTitle">Bacon wrapped wild gulf prawns</h1>
+      <div class="foodDesc">Lore m ipsum dolor sit amet consedetur atlipisicingelit Aralteao Illo </div>
+      <div class="foodPrice">$18.00</div>
+    </div>
+    <img src="./img/dishes_2.jpg" class="menuCube"></img> 
+  
+</div> 
+
+
+ <div class="MenuLine">
+
+  <div class="menuCube">
+    <h1 class="foodTitle">Spicy Calamad and beans </h1>
+    <div class="foodDesc">or ipsum dolor zkamet consectetur atlipisicing eIrt. Archileao deleaus...</div>
+    <div class="foodPrice">$12.00</div>
+  </div>
+
+  <img src="./img/dishes_1.jpg" class="menuCube"></img>
+  <div class="menuCube"> 
+      <h1 class="foodTitle">Seared ahi tuna fillet*, honey-ginger sauce</h1>
+    <div class="foodDesc">Lore m ipsum dolor sit amet consedetur atlipisicingelit Aralteao Illo </div>
+    <div class="foodPrice">$16.00</div>
+  </div>
+  <img src="./img/dishes_3.jpg" class="menuCube"></img> 
+ </div>
+  </div>
+
+ </div> 
+
+
+
+<div class="fifthSection">
+  <h1 >TESTIMONIAL</h1>
+  <div class="chefs">
+    <div class="chefDesc">
+      <div class="desc">
+        <div class="desc"> 
+          Lorem ipsum dolor sit amet, consectetur adipisicing elk. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam ventans nobis cum iusto neque enim explicabo maxime natus doloribus, fuga suns"
+        <div class="imgAndName">
+        <img src="./img/person_1.jpg" class="chefImg"></img>
+        <div class="nameAndJobDesc">
+          <div >Mellisa Howard</div>
+        <div class="chefJobDesc"> CEO, XYZ Company </div>
+       
+      </div>
+    </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="chefDesc">
+      <div class="desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elk. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam ventans nobis cum iusto neque enim explicabo maxime natus doloribus, fuga suns"
+
+        <div class="imgAndName">
+        <img src="./img/person_2.jpg" class="chefImg"></img>
+        <div class="nameAndJobDesc">
+          <div >Mike Richardson</div>
+          <div class="chefJobDesc">
+            CEO, XYZ Company
+          </div>
+          
+        </div>
+
+      </div>
+        
+      </div>
+    </div>
+    <div class="chefDesc">
+      <div class="desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elk. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam ventans nobis cum iusto neque enim explicabo maxime natus doloribus, fuga suns"
+
+        <div class="imgAndName"><img src="./img/person_3.jpg" class="chefImg"></img>
+
+          <div class="nameAndJobDesc">
+            <div class="name">
+              <div>Charles White</div>
+            </div>
+            
+        <div class="chefJobDesc">
+          CEO, XYZ Company
+        </div>
+          </div>
+        
+      </div>
+        
+      </div>
+    </div>
+  </div>
+ 
+</div>
+<div class="sixthSection">
+  <h1>BLOG</h1>
+    <div class="dish1 bothDishes">
+      <img src="./img/dishes_1.jpg" class="blogDishPic"></img>
+    <div class="blogDish">
+      <div class="blogDishTitle">How to cook beef steak with sauce</div>
+      <div class="blogDishDate">📅Apri 22, 2018</div>
+      <div class="blogDishDesc">Lorem ipsum dolor sit amet consectetur adiasdicing elit. Architecto illo delectus...</div>
+      <button class="blogDishButton">READ MORE</button></div>
+    
+    </div> 
+     <div class="dish2 bothDishes"> 
+       <img src="./img/dishes_2.jpg" class="blogDishPic"></img>
+    <div class="blogDish">
+      <div class="blogDishTitle">How to cook beef steak with sauce</div>
+      <div class="blogDishDate">📅Apri 22, 2018</div>
+      <div class="blogDishDesc">Lorem ipsum dolor sit amet consectetur adiasdicing elit. Architecto illo delectus...</div>
+      <button class="blogDishButton">READ MORE</button></div>
+
+  
+  </div>
+  </div>
+
+
+<div class="seventhSection">
+
+  <h1 >Subscribe Newsletter</h1>
+  <div class="SScontent">Lorem psum dolor sit ametrconseaetur atlipsiong Dolore ex temporibus magni ipzarn pnventore tlolorum zunt amet vel.</div>
+ <div class="SSinputAndButton">
+  <input class="SSinput" placeholder="Enter Email Address"></input>
+  <button class="SSbutton">SUBSCRIBE</button></div>
+  
+  
+</div>
+
+<div class="eightSection">
+
+  <div class="columns">
+
+    <div class="firstC">
+      <div class="firstCTitle">About Us</div>
+      <div class="firstCtext">Loren, ipsum dolor sit amet consectetur adipinicing elit. Voluptatibus et dolor blandillin conseguuntur exvoluptiates perspiciatis omnis unde minima expedites. 
+      </div>
+   
+        <div class="icons">
+        
+      <a href="https://www.twitter.com">
+        <img  src="./img/tw.jpg"></img>
+      </a>
+      <a href="https://www.facebook.com">
+        <img  src="./img/fb.jpg"></img>
+      </a>
+      <a href="https://www.linkedin.com">
+        <img  src="./img/ln.jpg"></img>
+      </a>
+      <a href="https://www.instagram.com">
+        <img  src="./img/ig.jpg"></img>
+      </a>
+     
+  
+      </div>
+    </div>
+    <div class="secondC">
+      <div class="secondC1">
+      <div class="white">Opening Hours</div>
+      <div class="gray">Sunday-Thursday</div>
+      <div class="graySmall">5AM-10PM</div>
+    </div>
+      <div class="secondC2">
+        <div class="white">Contact Info</div>
+      <div class="graySmall">Address:</div>
+      <div class="whiteSmall">Address: 34 Street Name, City Name Here, United States </div>
+      <div class="graySmall">Telephone:</div>
+      <div class="whiteSmall">+1 242 4942 290 </div>
+      <div class="graySmall">Email:</div>
+      <div class="whiteSmall">info@yourdomain.com</div>
+      </div>
+      
+    </div>
+    <div class="thirdC">
+      <div class="thirdCTitle">Quick Links</div>
+      <a href="" class="thirdCLink">About</a>
+      <a href="" class="thirdCLink">Terms of Use</a>
+      <a href="" class="thirdCLink">Disclaimers</a>
+      <a href="" class="thirdCLink">Contact</a>
+    </div>
+    
+  
+
+  </div>
+   <div class="finalRow">
+      Copyright 2019 All rights reserved I This template is made with ❤️ by <a  href="">Color lib</a> 
+      
+
+    </div>
+    </div>
+  </div>
+ 
+  </body>
+</html>
